@@ -1,0 +1,5 @@
+{
+	"block.inst_red.fast_repeater" : "répéteur rapide",
+	"block.inst_red.fast_torch" : "torche rapide",
+	"itemGroup.inst_red" : "Redstone Instantanée"
+}

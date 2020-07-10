@@ -1,0 +1,6 @@
+{
+	"parent" : "block/repeater_4tick",
+	"textures" : {
+		"unlit" : "inst_red:block/fast_torch_off"
+	}
+}

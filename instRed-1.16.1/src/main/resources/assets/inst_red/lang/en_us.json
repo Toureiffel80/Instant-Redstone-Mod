@@ -1,0 +1,5 @@
+{
+	"block.inst_red.fast_repeater" : "Fast repeater",
+	"block.inst_red.fast_torch" : "Fast torch",
+	"itemGroup.inst_red" : "Instant Redstone"
+}

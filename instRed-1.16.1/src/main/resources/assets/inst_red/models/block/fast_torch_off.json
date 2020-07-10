@@ -1,0 +1,6 @@
+{
+	"parent" : "block/template_torch",
+	"textures" : {
+		"torch" : "inst_red:block/fast_torch_off"
+	}
+}

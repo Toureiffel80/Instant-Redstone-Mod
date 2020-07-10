@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "lit=true":  { "model": "inst_red:block/fast_torch_on" },
+        "lit=false":  { "model": "inst_red:block/fast_torch_off" }
+    }
+}

@@ -1,0 +1,6 @@
+{
+	"parent" : "block/repeater_2tick_on_locked",
+	"textures" : {
+		"lit" : "inst_red:block/fast_torch_on"
+	}
+}
