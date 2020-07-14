@@ -5,6 +5,8 @@ import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.WallOrFloorItem;
 import net.minecraft.client.renderer.RenderType;
+import net.minecraftforge.api.distmarker.Dist;
+import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
@@ -32,6 +34,7 @@ public final class EventSubscriber {
 	}
 	
 	@SubscribeEvent
+	@OnlyIn(Dist.CLIENT)
 	public static void setup(final FMLCommonSetupEvent event) {
 		RenderTypeLookup.setRenderLayer(ModBlocks.FAST_TORCH.get(), RenderType.getCutoutMipped());
 		RenderTypeLookup.setRenderLayer(ModBlocks.FAST_WALL_TORCH.get(), RenderType.getCutoutMipped());
