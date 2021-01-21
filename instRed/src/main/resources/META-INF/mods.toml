@@ -5,7 +5,7 @@ license="GPL3"
 
 [[mods]]
 	modId="inst_red"
-	version="1.0.1.2"
+	version="1.0.2.0"
 	displayName="Instant redstone"
 	authors="Toureiffel"
 	description="A mod adding instant redstone repeaters and torches"

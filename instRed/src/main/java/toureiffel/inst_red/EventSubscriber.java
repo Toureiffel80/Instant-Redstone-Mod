@@ -30,6 +30,8 @@ public final class EventSubscriber {
 		
 		event.getRegistry().register(new BlockItem(ModBlocks.FAST_REPEATER.get(),
 				new Item.Properties().group(ModItemGroups.MOD_ITEM_GROUP)).setRegistryName(ModBlocks.FAST_REPEATER.get().getRegistryName()));
+		event.getRegistry().register(new BlockItem(ModBlocks.FAST_COMPARATOR.get(),
+				new Item.Properties().group(ModItemGroups.MOD_ITEM_GROUP)).setRegistryName(ModBlocks.FAST_COMPARATOR.get().getRegistryName()));
 		
 	}
 	
@@ -39,6 +41,7 @@ public final class EventSubscriber {
 		RenderTypeLookup.setRenderLayer(ModBlocks.FAST_TORCH.get(), RenderType.getCutoutMipped());
 		RenderTypeLookup.setRenderLayer(ModBlocks.FAST_WALL_TORCH.get(), RenderType.getCutoutMipped());
 		RenderTypeLookup.setRenderLayer(ModBlocks.FAST_REPEATER.get(), RenderType.getCutoutMipped());
+		RenderTypeLookup.setRenderLayer(ModBlocks.FAST_COMPARATOR.get(), RenderType.getCutoutMipped());
 	}
 	
 	@SubscribeEvent

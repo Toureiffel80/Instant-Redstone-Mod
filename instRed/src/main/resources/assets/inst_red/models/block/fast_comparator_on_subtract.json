@@ -1,0 +1,7 @@
+{
+	"parent" : "block/comparator_on_subtract",
+	"textures" : {
+		"unlit" : "inst_red:block/fast_torch_off",
+		"lit" : "inst_red:block/fast_torch_on"
+	}
+}

@@ -8,6 +8,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 
 import toureiffel.inst_red.InstRedMod;
+import toureiffel.inst_red.block.FastComparator;
 import toureiffel.inst_red.block.FastRepeater;
 import toureiffel.inst_red.block.FastTorch;
 import toureiffel.inst_red.block.FastWallTorch;
@@ -25,4 +26,7 @@ public class ModBlocks {
 	public static final RegistryObject<Block> FAST_WALL_TORCH = BLOCKS.register("fast_wall_torch",
 			() -> new FastWallTorch(Block.Properties.create(Material.MISCELLANEOUS)
 					.doesNotBlockMovement().hardnessAndResistance(0.0F).func_235838_a_((state) -> 7).sound(SoundType.WOOD)));
+	public static final RegistryObject<Block> FAST_COMPARATOR = BLOCKS.register("fast_comparator",
+			() -> new FastComparator(Block.Properties.create(Material.MISCELLANEOUS)
+					.hardnessAndResistance(0.0F, 0.0F).sound(SoundType.WOOD)));
 }
